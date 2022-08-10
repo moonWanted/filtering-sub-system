@@ -1,0 +1,7 @@
+version: '2'
+services:
+  filtering-sub-system:
+    build: .
+    container_name: filtering_c
+    ports:
+      - '3000:3000'
